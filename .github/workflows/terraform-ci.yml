@@ -52,7 +52,7 @@ jobs:
           terraform_version: "1.14.0"
 
       - name: Terraform Init
-        working-directory: ./dev
+        working-directory: .envs/dev
         run: terraform init
 
       - name: Terraform Plan
